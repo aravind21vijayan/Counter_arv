@@ -1,0 +1,89 @@
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+
+
+
+
+.i,.d,.count {
+    display: inline-block;
+    margin-top: 100px;
+}
+
+
+.d{
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.increment{
+    background-color: white;
+    font-size: 50px;
+    
+}
+
+.increment:hover{
+    box-shadow: 10px 10px 10px 3px  darkgreen;
+}
+
+
+.decrement{
+    background-color: white;
+    font-size: 50px;
+    
+}
+
+.decrement:hover{
+    box-shadow: 10px 10px 10px 3px orange;
+
+}
+
+.count:hover{
+    box-shadow: 5px 5px 10px 3px #b3b3b3;
+}
+button{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: none;
+    
+    
+    
+}
+
+hr{
+    width:50%;
+    margin-top: 40px;;
+}
+
+.count{
+    text-align: center;
+    font-size: 75px;
+    width: 100%;
+    
+    
+    
+}
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+    right: 0;
+}
+.outside{
+    height:500px;
+    width:500px;
+    border: solid white;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 10px 10px 14px 6px #b3b3b3;
+    border-radius: 1rem;
+    padding: 20px;
+}
